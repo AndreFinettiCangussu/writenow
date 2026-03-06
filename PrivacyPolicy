@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Write Now — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card: rgba(255,255,255,0.82);
+      --text: #1d1d1f;
+      --secondary: #6e6e73;
+      --line: rgba(60,60,67,0.16);
+      --accent: #0071e3;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(0,113,227,0.10), transparent 32%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+
+    .hero {
+      margin-bottom: 28px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.05;
+      margin: 0 0 12px;
+      letter-spacing: -0.03em;
+    }
+
+    .intro {
+      font-size: 19px;
+      color: var(--secondary);
+      max-width: 760px;
+      margin: 0;
+    }
+
+    .meta {
+      margin-top: 18px;
+      font-size: 14px;
+      color: var(--secondary);
+    }
+
+    .card {
+      background: var(--card);
+      backdrop-filter: saturate(180%) blur(24px);
+      -webkit-backdrop-filter: saturate(180%) blur(24px);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+    }
+
+    section + section {
+      margin-top: 16px;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 10px;
+    }
+
+    p {
+      margin: 0 0 12px;
+      font-size: 16px;
+    }
+
+    ul {
+      margin: 10px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 22px;
+      font-size: 14px;
+      color: var(--secondary);
+    }
+
+    @media (max-width: 640px) {
+      .wrap { padding-top: 32px; }
+      .card { padding: 22px; border-radius: 20px; }
+      .intro { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Write Now</div>
+      <h1>Privacy Policy</h1>
+      <p class="intro">
+        Write Now is built to minimize data collection. The app does not collect, store,
+        sell, or share your personal data with the developer.
+      </p>
+      <div class="meta">
+        Effective date: [INSERT DATE]<br />
+        Developer: [INSERT YOUR NAME OR COMPANY NAME]<br />
+        Contact: <a href="mailto:[INSERT CONTACT EMAIL]">[INSERT CONTACT EMAIL]</a>
+      </div>
+    </header>
+
+    <div class="card">
+      <section>
+        <h2>1. Overview</h2>
+        <p>
+          Write Now is a speech-to-text utility designed with privacy in mind.
+          The developer does not collect or maintain user profiles, and does not operate
+          servers for storing your recordings or dictated text.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Data We Collect</h2>
+        <p>
+          The developer of Write Now does not collect personal data from users through the app.
+        </p>
+        <p>In particular, Write Now does not collect or store on the developer’s servers:</p>
+        <ul>
+          <li>audio recordings;</li>
+          <li>transcribed text;</li>
+          <li>dictation history;</li>
+          <li>account details;</li>
+          <li>analytics linked to your identity;</li>
+          <li>advertising or tracking identifiers.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Audio and Speech Processing</h2>
+        <p>
+          Write Now may use different speech recognition methods depending on the feature in use.
+        </p>
+        <p>
+          When local speech models are used, audio processing is performed on the device by the app,
+          and the developer does not transmit your recordings or transcribed content to external servers.
+        </p>
+        <p>
+          Write Now may also use Apple-provided speech technologies. When Apple speech services are used,
+          processing may occur on device or through Apple systems, depending on system configuration,
+          device support, and service availability. Any such processing is subject to Apple’s own terms,
+          settings, and privacy policies.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Text Content</h2>
+        <p>
+          The developer does not access, review, or store the text you dictate through Write Now,
+          except for any temporary local processing required for the app to function on your device.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Local Device Storage</h2>
+        <p>
+          To provide core functionality, Write Now may store certain data locally on your device,
+          such as app preferences, shortcuts, custom dictionary entries, or similar settings you create.
+        </p>
+        <p>
+          This local data is not transmitted to the developer’s servers.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Permissions</h2>
+        <p>
+          Write Now may request access to the microphone and accessibility features solely to provide
+          core app functionality, including capturing speech and inserting transcribed text into other apps.
+        </p>
+        <p>
+          These permissions are not used for advertising, profiling, or unrelated tracking.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. No Tracking</h2>
+        <p>
+          Write Now does not track you across apps, websites, or services owned by other companies,
+          and does not use third-party advertising SDKs for behavioral advertising.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Third-Party Platforms and Services</h2>
+        <p>
+          Some features may rely on Apple frameworks or system services. Those services are governed
+          by Apple’s applicable terms and privacy policies. The developer is not responsible for the
+          privacy practices of Apple or other platform providers.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Children’s Privacy</h2>
+        <p>
+          Write Now is not directed to children under the age required by applicable law to provide
+          consent on their own, and the developer does not knowingly collect personal information from children.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Changes to This Policy</h2>
+        <p>
+          This Privacy Policy may be updated from time to time. Any updates will be posted on this page
+          with a revised effective date.
+        </p>
+      </section>
+
+      <section>
+        <h2>11. Contact</h2>
+        <p>
+          If you have questions about this Privacy Policy, contact:
+          <a href="mailto:[INSERT CONTACT EMAIL]">[INSERT CONTACT EMAIL]</a>
+        </p>
+      </section>
+    </div>
+
+    <div class="footer">
+      © [INSERT YEAR] [INSERT YOUR NAME OR COMPANY NAME]. All rights reserved.
+    </div>
+  </main>
+</body>
+</html>
