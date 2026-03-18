@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Write Now — Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official support for Write Now: quick start, plans, permissions, FAQ, troubleshooting, and contact.">
+  <meta name="theme-color" content="#0B0B0C">
+  <meta property="og:title" content="Write Now — Support">
+  <meta property="og:description" content="Quick start, plans, permissions, FAQ, troubleshooting, and contact for Write Now.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://andrefinetticangussu.github.io/writenow/support.html">
+  <style>
+    :root {
+      --bg: #0b0b0c;
+      --bg-elev: #141416;
+      --text: #f5f6f7;
+      --muted: #b8bcc3;
+      --accent: #4f8cff;
+      --good: #2ecc71;
+      --warn: #f1c40f;
+      --bad: #ff6b6b;
+      --border: #2a2c31;
+      --card: #121316;
+      --link: #7aa2ff;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #ffffff;
+        --bg-elev: #f6f7f9;
+        --text: #0b0b0c;
+        --muted: #4b5563;
+        --accent: #2b59ff;
+        --good: #1f9d55;
+        --warn: #b08900;
+        --bad: #d64545;
+        --border: #e5e7eb;
+        --card: #ffffff;
+        --link: #1f49e0;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 20% -10%, rgba(79,140,255,0.12), transparent 60%),
+                  radial-gradient(1200px 800px at 80% 110%, rgba(123,97,255,0.10), transparent 60%),
+                  var(--bg);
+      line-height: 1.55;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 980px; margin: 0 auto; padding: 24px; }
+    header.hero { padding: 48px 0 24px; }
+    .app-title { font-size: 40px; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 8px; }
+    .subtitle { color: var(--muted); margin: 0 0 16px; font-size: 18px; }
+    .badges { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 14px; border-radius: 999px;
+      background: linear-gradient(180deg, var(--bg-elev), var(--card));
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-weight: 600; font-size: 14px;
+    }
+    .badge .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); box-shadow: 0 0 0 2px rgba(46, 204, 113, 0.25); }
+    nav.quick { margin: 24px 0 8px; display: flex; flex-wrap: wrap; gap: 10px; }
+    nav.quick a {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card);
+    }
+    section { margin: 28px 0; padding: 20px; background: var(--card); border: 1px solid var(--border); border-radius: 16px; }
+    section h2 { margin: 0 0 12px; font-size: 22px; letter-spacing: -0.01em; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 800px) { .grid { grid-template-columns: 1fr; } }
+    .card { padding: 16px; border: 1px solid var(--border); border-radius: 12px; background: linear-gradient(180deg, var(--bg-elev), var(--card)); }
+    ul { padding-left: 18px; margin: 8px 0; }
+    li + li { margin-top: 6px; }
+    .callout { border-left: 4px solid var(--accent); padding: 12px 14px; background: var(--bg-elev); border-radius: 8px; margin: 12px 0; }
+    details { border: 1px dashed var(--border); border-radius: 10px; padding: 10px 12px; background: var(--bg-elev); }
+    details + details { margin-top: 10px; }
+    details summary { font-weight: 600; cursor: pointer; }
+    code, kbd {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      background: var(--bg-elev); color: var(--text);
+      border: 1px solid var(--border); border-radius: 6px; padding: 2px 6px; font-size: 90%;
+    }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 14px; border-radius: 10px; font-weight: 600;
+      color: white; background: linear-gradient(180deg, #5d85ff, #2b59ff);
+      border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 6px 18px rgba(43, 89, 255, 0.25);
+    }
+    .btn:hover { filter: brightness(1.05); text-decoration: none; }
+    footer { color: var(--muted); font-size: 14px; padding: 28px 0 40px; text-align: center; }
+    .status-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+    .s-good { background: var(--good); }
+    .s-warn { background: var(--warn); }
+    .s-bad { background: var(--bad); }
+    .small { font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1 class="app-title">Write Now</h1>
+      <p class="subtitle">Instant dictation on Mac: hold the shortcut (⌥ by default), speak, and your text is transcribed and pasted where you need it.</p>
+      <div class="badges">
+        <span class="badge"><span class="dot"></span> Offline mode (Whisper/Sherpa — Premium)</span>
+        <span class="badge">Menu bar app</span>
+        <span class="badge">Privacy by design</span>
+      </div>
+      <nav class="quick" aria-label="Quick links">
+        <a href="#quick-start">Quick Start</a>
+        <a href="#plans">Plans</a>
+        <a href="#engines">Engines</a>
+        <a href="#permissions">Permissions</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="links" style="margin-top: 14px;">
+        <a class="btn" style="background: linear-gradient(180deg,#2f3542,#1e272e);" href="mailto:writenow.support@gmail.com?subject=Write%20Now%20Support">Contact Support</a>
+      </div>
+    </header>
+
+    <section id="what-is">
+      <h2>What is Write Now</h2>
+      <p>Write Now is a lightweight macOS tool that turns your voice into text in real time and automatically pastes it into the active app. Perfect for email, chats, notes, and any text field.</p>
+      <div class="grid">
+        <div class="card">
+          <strong>Key features</strong>
+          <ul>
+            <li>Global shortcut: hold a modifier (default <kbd>⌥</kbd> Option) to speak.</li>
+            <li>Accurate transcription with punctuation (when available).</li>
+            <li>Automatically paste into the current app, or copy to clipboard.</li>
+            <li>Voice “shortcuts” (e.g., “inserisci shortcut firma”); the trigger phrase is customizable.</li>
+            <li>Personal dictionary with automatic learning of recurring terms.</li>
+            <li>File transcription: MP3, M4A, AAC, WAV, FLAC, OGG, OPUS, AIFF, CAF.</li>
+            <li>On‑device engines (Whisper, Sherpa) in Premium; Apple Speech included in Free.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>System requirements</strong>
+          <ul>
+            <li>macOS 13 Ventura or later (macOS 14+ recommended).</li>
+            <li>Microphone and Accessibility permissions enabled.</li>
+            <li>Internet connection only to download models or system assets, when needed.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout small">
+        <strong>Privacy:</strong> Whisper and Sherpa run entirely <em>on device</em> (Premium). Apple Speech may use system services depending on language and availability. Audio is never sent to third parties without your consent.
+      </div>
+    </section>
+
+    <section id="quick-start">
+      <h2>Quick Start</h2>
+      <ol>
+        <li>Install and launch Write Now.</li>
+        <li>Grant access to <strong>Microphone</strong> and <strong>Accessibility</strong> when prompted.</li>
+        <li>Open Settings to choose language, shortcut, and paste behavior.</li>
+        <li>Hold <kbd>⌥</kbd> (default), <strong>speak</strong>, then release — your text is <strong>pasted</strong> automatically.</li>
+      </ol>
+      <div class="grid">
+        <div class="card">
+          <strong>Status indicators</strong>
+          <ul>
+            <li><span class="status-dot s-good"></span><em>Listening</em>: a dark pill with the wave; the mic is active.</li>
+            <li><span class="status-dot s-warn"></span><em>Transcribing…</em>: converting audio to text.</li>
+            <li><span class="status-dot s-good"></span><em>Pasting</em>: inserting text into the current app.</li>
+            <li><span class="status-dot s-bad"></span><em>Error</em>: click to read details.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Tips</strong>
+          <ul>
+            <li>Select the correct language in Settings.</li>
+            <li>Speak clearly in a quiet environment.</li>
+            <li>Dictate punctuation when needed (e.g., “comma”, “period”).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans">
+      <h2>Plans</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Free</strong>
+          <ul>
+            <li>Apple Speech engine (no model downloads).</li>
+            <li>Limit: <strong>2,000 words per week</strong>.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Premium</strong>
+          <ul>
+            <li>Unlocks on‑device engines: Whisper and Sherpa.</li>
+            <li>No weekly limit.</li>
+            <li>Advanced options (models, formatting presets, etc.).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout small">
+        <strong>Product IDs (StoreKit):</strong>
+        <ul>
+          <li><code>com.AndreFC.WriteNow.premium.monthly</code></li>
+          <li><code>com.AndreFC.WriteNow.premium.yearly</code></li>
+          <li><code>com.AndreFC.WriteNow.premium.lifetime</code></li>
+        </ul>
+        You can purchase or <em>restore purchases</em> from the app’s Settings.
+      </div>
+    </section>
+
+    <section id="engines">
+      <h2>Transcription engines</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Apple Speech (Free)</strong>
+          <p>Built into macOS. Fast setup, no model downloads. Processing may be on device or use Apple services depending on language and availability.</p>
+        </div>
+        <div class="card">
+          <strong>Whisper (Premium)</strong>
+          <ul>
+            <li>Fully on device, no data leaves your Mac.</li>
+            <li>Requires downloading a model (e.g., small/medium/large‑v3‑turbo/large‑v3).</li>
+            <li>Models are stored in <code>~/Library/Application Support/Write_Now/Models/</code>.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Sherpa (Premium)</strong>
+          <ul>
+            <li>On device; streaming variants (Zipformer/Paraformer) and offline (NeMo).</li>
+            <li>Models are stored in <code>~/Library/Application Support/Write_Now/SherpaModels/</code>.</li>
+            <li>Some models may output all‑caps text (normalized by the app).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="permissions">
+      <h2>Permissions</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Microphone</strong>
+          <p>Required to record and transcribe your voice.</p>
+          <ol>
+            <li>System Settings → Privacy & Security → Microphone.</li>
+            <li>Enable Write Now and restart the app if needed.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <strong>Accessibility</strong>
+          <p>Required to paste or type text automatically into the active app.</p>
+          <ol>
+            <li>System Settings → Privacy & Security → Accessibility.</li>
+            <li>Enable Write Now (unlock the padlock if requested).</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="data-privacy">
+      <h2>Data & privacy</h2>
+      <ul>
+        <li><strong>No account</strong> and no tracking.</li>
+        <li><strong>On‑device audio</strong> with Whisper/Sherpa (Premium). Apple Speech follows system policies.</li>
+        <li><strong>Local storage</strong> under <code>~/Library/Application Support/Write_Now/</code>:
+          <ul>
+            <li>Whisper models: <code>.../Models/</code></li>
+            <li>Sherpa models: <code>.../SherpaModels/</code></li>
+            <li>Personal dictionary and shortcuts: JSON files in the same folder.</li>
+          </ul>
+        </li>
+        <li><strong>Local statistics</strong> for word/session counts, used to enforce the Free plan’s weekly limit.</li>
+      </ul>
+      <p class="small">Read the full <a href="https://andrefinetticangussu.github.io/writenow/PrivacyPolicy.html">Privacy Policy</a>.</p>
+    </section>
+
+    <section id="terms">
+      <h2>Terms of use</h2>
+      <p>Write Now is provided “as is” without warranties of any kind. By using the app, you agree to the following:</p>
+      <ul>
+        <li>Do not use the app for illegal activities or to infringe third‑party rights.</li>
+        <li>Transcriptions may contain errors; always review before sending.</li>
+        <li>The author is not liable for any loss or damage arising from the use of the app.</li>
+      </ul>
+      <p class="small">For legal questions or special requests, contact us from the <a href="#contact">Contact</a> section.</p>
+    </section>
+
+    <section id="troubleshooting">
+      <h2>Troubleshooting</h2>
+      <details>
+        <summary>It doesn’t hear me / Empty transcription</summary>
+        <ul>
+          <li>Check the <strong>Microphone</strong> permission.</li>
+          <li>Verify your input device in System Settings → Sound → Input.</li>
+          <li>Reduce background noise or adjust mic distance.</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Text doesn’t paste automatically</summary>
+        <ul>
+          <li>Enable the <strong>Accessibility</strong> permission.</li>
+          <li>Make sure the cursor is in an editable text field.</li>
+          <li>Check “Automatic paste” options in Settings.</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Model download seems stuck</summary>
+        <ul>
+          <li>Keep the app in the foreground until the download finishes.</li>
+          <li>Check your connection and try again.</li>
+          <li>Restart the app to resume the download.</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Shortcut conflicts</summary>
+        <ul>
+          <li>Change the global shortcut in Write Now’s Settings.</li>
+          <li>Avoid combinations used by macOS (e.g., Spotlight) or other apps.</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Low accuracy / punctuation issues</summary>
+        <ul>
+          <li>Select the correct language in Settings.</li>
+          <li>Speak at a natural pace and dictate punctuation when needed.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Does Write Now work offline?</summary>
+        <p>Yes — with Whisper and Sherpa (Premium), everything runs on device. Apple Speech may use Apple services depending on language and system availability.</p>
+      </details>
+      <details>
+        <summary>Which audio formats are supported for file transcription?</summary>
+        <p>MP3, M4A, AAC, WAV, FLAC, OGG, OPUS, AIFF, and CAF.</p>
+      </details>
+      <details>
+        <summary>Can I disable automatic paste?</summary>
+        <p>Yes. In Settings you can choose automatic paste, copy to clipboard, or preview before pasting.</p>
+      </details>
+      <details>
+        <summary>How do voice “shortcuts” work?</summary>
+        <p>Set a trigger phrase (default in Italian: “inserisci shortcut”), then assign shortcut names to expand into text. Example: “inserisci shortcut firma”.</p>
+      </details>
+      <details>
+        <summary>How do I restore purchases?</summary>
+        <p>From Settings → Premium → “Restore purchases”.</p>
+      </details>
+    </section>
+
+    <section id="release-notes">
+      <h2>Release notes</h2>
+      <div class="card">
+        <p><strong>Current version:</strong> <code>1.0</code> — <span class="small">Last updated: March 18, 2026</span></p>
+        <ul>
+          <li>Improved transcription stability and accuracy.</li>
+          <li>Advanced model and formatting options (Premium).</li>
+          <li>Minor fixes and UI polish.</li>
+        </ul>
+        <p class="small">Full changelog available in this section.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & support</h2>
+      <ul>
+        <li>Email: <a href="mailto:writenow.support@gmail.com">writenow.support@gmail.com</a></li>
+        <li>Privacy Policy: <a href="https://andrefinetticangussu.github.io/writenow/PrivacyPolicy.html">andrefinetticangussu.github.io/writenow/PrivacyPolicy.html</a></li>
+        <li>Terms: <a href="#terms">Terms of use</a></li>
+      </ul>
+      <div class="callout small">
+        When contacting support, please include: app version, macOS version, Mac model, chosen language, and a brief description of the issue.
+      </div>
+    </section>
+
+    <footer>
+      <div>© Andre Finetti Cangussu — All rights reserved.</div>
+      <div class="small">This site does not use tracking cookies.</div>
+      <div class="small" style="margin-top: 6px;"><a href="#top">Back to top</a></div>
+    </footer>
+  </div>
+</body>
+</html>
